@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+<body>
+   <h1>Registration Form</h1><br>
+
+   <form action="/users" method="post">
+    <label for="name">Name</label>
+    <input type="text" name="name">
+    <label for="skill">Skill</label>
+    <input type="text" name="skill">
+    <label for="password">Password</label>
+    <input type="password" name="password">
+   
+    <button name="Submit">Submit</button>
+</form>
+    
+</body>
+</html>

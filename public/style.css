@@ -1,0 +1,48 @@
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(226, 226, 248);
+}
+
+
+    h1, h2{
+        text-align: center; 
+        padding: 15px;   
+ }
+
+form{
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input{
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+label{
+    display: block;
+    margin-top: 24px;
+    color: rgb(70, 12, 12);
+ }
+
+  button{
+    margin-top: 20px;
+    background: crimson;
+    color: white;
+    padding: 6px;
+    border: 0;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+
+  .dee{
+    width: 600px;
+    background-color: red;
+    margin: 0px auto;
+    padding-bottom: 30px;
+  }
+ 
